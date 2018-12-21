@@ -14,7 +14,7 @@ for x in range(97, 123):
 	
 #生成10个数字
 for x in range(10):
-	a = str(chr(x))
+	list.append(x)
 ...
 def gen_code():
 	a = random.sample(list, 16)
